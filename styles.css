@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: "Exile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    background: grey;
+}
+
+.header h1{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid purple;
+    text-align: center;
+}
+
+.feed{
+    padding: 30px 30% 30px 30%;
+    background-color: rgb(232, 197, 233);
+}
+
+.firstPublication, .secondPublication, .thirdPublication, .fourthPublication{
+    margin: 0 0 20% 0;
+    width: 100%;
+    border: 1px solid purple;
+    background-color: white;
+}
+
+#firstTop, #secondTop, #thirdTop, #fourthTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+#firstTop h2, #secondTop h2, #thirdTop h2, #fourthTop h2{
+    padding-left: 10px;
+}
+
+.firstPublication p, .secondPublication p, .thirdPublication p, .fourthPublication p{
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+#user1, #user2, #user3, #user4{
+    padding-left: 10px;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+
+#firstTop h3, #secondTop h3, #thirdTop h3, #fourthTop h3{
+    padding-right: 20px;
+    width: auto;
+}
+
+.firstPublication img, .secondPublication img, .thirdPublication img, .fourthPublication img{
+    margin-bottom: 0;
+    max-height: 700px;
+    width: 100%;
+}
+
+#imageBackground{
+    background-color: rgb(214, 206, 206);
+    height: 700px;
+    align-content: center;
+}
